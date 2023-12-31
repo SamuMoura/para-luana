@@ -8,7 +8,9 @@
     box-sizing: border-box;
   }
 
-  .all{
+  
+
+  .all {
     visibility: hidden;
   }
 
@@ -17,6 +19,7 @@
       visibility: visible;
       position: absolute;
       align-items: center;
+      display: flex;
       flex-direction: column;
       margin-top: 10%;
       margin-left: 5%;
@@ -24,26 +27,23 @@
       transition: 0.5s;
     }
 
-    .text2 {
-      color: #f9f9f9;
-      font-family: 'Poppins', 'Arial', 'Sans-serif';
-      font-size: calc(40px - 5%);
-      margin-left: 2%;
-    }
-
-    .text1 {
-      color: #f9f9f9;
-      font-family: 'Poppins', 'Arial', 'Sans-serif';
-      font-size: calc(40px - 5%);
-      padding-left: 11%;
-    }
-
     #img {
-      width: 65%;
-      margin-left: 9%;
+      width: 115%;
+      margin-left: -10%;
       margin-top: 5%;
     }
+    
+    #playButton {
+    color: white;
+    background-color: transparent;
+    width: 9%;
+    height: 15%;
+    border: none;
+    margin-left: -10%;
+    margin-top: -5%;
   }
+  }
+
 
   :root {
     --dark-color: #000;
